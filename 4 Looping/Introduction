@@ -1,0 +1,21 @@
+Looping : Looping is the process of performing same task or some task in an iterative manner, untill certain condition is satisfied. 
+
+There are two types of loops : 
+a. Entry control loop
+b. Exit control loop
+
+a. Entry control loop
+In case of Entry control loop, condition is checked at the time of entry. 
+Here for loop and while loop comes under this category.
+
+b. Exit Control loop
+In case of Exit control loop, condition is checked at the time of exit. 
+Here do while loop comes under this category.
+
+for loop : When we already know in advance that how many times we have to execute our loop, then in that case we are going to use for loop.
+Ex : table of a number 
+
+while loop : When we don't know in advance that how many times we have to execute our loop, then in that case we are going to use while loop
+Ex : Reversing a number 
+
+do while loop : Whether condition is true or false, do while loop may executes atleast once.
