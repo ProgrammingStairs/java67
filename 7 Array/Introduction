@@ -1,0 +1,56 @@
+Array : 
+-------
+1. Arrays are object in java.
+2. Array is categorized under non primitive datatype   i.e reference type.
+3. Array deals with Homogenous data elements.(same type of data elements)
+4. Array works on the concept of indexing.
+5. Array indexing always starts from zero as it follows number system.
+6. Prerequisite for array allocation is base address.
+7. Array works on continous memory allocation.
+8. Array elements shares same name but differentiable by there indexing.
+9. Array can hold primitive as well as object reference.
+10. Arrays are dynamically allocated in java.
+11. Types of array : 
+    a. One Dimensional array (1d array) 
+    b. Two Dimensional array (2d array)
+        here we have special type of 2d array and that is jagged array.
+    c. Multi Dimensional array 
+
+
+        0     1     2      3    4 <--------- indexing
+     ________________________________
+     |     |      |     |     |     |
+     | 100 |  200 | 300 | 400 | 500 | <----- elements
+     |_____|______|_____|_____|_____|           
+     arr[0] arr[1] arr[2]arr[3]arr[4]
+     
+     arr[0] = 100
+     arr[1] = 200
+      |        |
+     arr[4] = 500 
+     
+     a. One dimensional array 
+     syntax : 
+     <datatype> <array_name>[] = {element1,element2,....,element_n};
+     example : 
+     int arr[] = {11,22,33,44,55};
+     double per[] = {3.4,5.6,7.8,9.9,22.2};
+
+     syntax : 
+     <datatype> <array_name>[] = new <datatype>[]{element1,element2,....,element_n};
+     example : 
+     int arr[] = new int[]{11,22,33,44,55};
+     double per[] = new double[]{3.4,5.6,7.8,9.9,22.2};
+
+     syntax : 
+     <datatype> <array_name>[] = new <datatype>[size];
+     example : 
+     int arr[] = new int[5];
+     double per[] = new double[100];
+
+     for(...;.....;.....){
+        ...
+        ...
+     }
+     
+     
