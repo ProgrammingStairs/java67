@@ -1,12 +1,15 @@
-// this can be used to represent current class instance variable
-// this represents current object 
-
+// this can be used to represent current class instance method
 import java.util.Scanner;
-class Demo4{
+class Demo5{
     int a,b; // instance variable
     void setData(int a,int b){
         this.a = a;
         this.b = b;
+        add();     // this.add();
+        this.sub();
+        mul();     // this.mul();
+        this.div();
+        mod();      // this.mod();
     }
     void add(){
         System.out.println("Add : "+(a+b));
@@ -29,12 +32,7 @@ class Demo4{
         System.out.println("Enter two numbers : ");
         int a = sc.nextInt();
         int b = sc.nextInt();
-        Demo4 obj = new Demo4();
+        Demo5 obj = new Demo5();
         obj.setData(a,b);
-        obj.add();
-        obj.sub();
-        obj.mul();
-        obj.div();
-        obj.mod();
     }
 }
