@@ -1,11 +1,14 @@
 // example showing the concept of Constructor
 // parameterized constructor
 import java.util.Scanner;
-class Demo4{
+class Demo5{
     int rno;
     double per;
     String name;
-    Demo4(int rno,double per,String name){
+    Demo5(){
+        System.out.println("no argument constructor called");
+    }
+    Demo5(int rno,double per,String name){
         this.rno=rno;
         this.per=per;
         this.name=name;
@@ -27,7 +30,8 @@ class Demo4{
         System.out.println("Enter Name : ");
         String name = sc.nextLine();
 
-        Demo4 obj = new Demo4(rno,per,name);
+        Demo5 objNew = new Demo5();
+        Demo5 obj = new Demo5(rno,per,name);
         obj.display();
     }
 }
