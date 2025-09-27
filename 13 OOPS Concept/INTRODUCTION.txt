@@ -95,7 +95,7 @@
     6. Abstraction : 
     Abstraction is the process of hiding implementation details and showing only functionality to the user. We can achieve the functionality of abstraction by two ways : 
         a. By Abstract class (0 to 100%) 
-        b. By Interface (100% till jdk 7)
+        b. By Interface (100%)
 
 |-- Functional programming Language
     In this case, we are going to complete incomplete method with the help of expressions.
